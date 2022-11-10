@@ -38,6 +38,12 @@
             border: 1px solid #acacac;
             border-radius: 10px;
         }
+
+        @media screen and (max-width: 500px) {
+            .small-column {
+                width: 350px !important;
+            }
+        }
     </style>
 </head>
 
@@ -203,7 +209,7 @@
             </tr>
             <tr>
                 <td>
-                    <table width="500" align="center" role="presentation">
+                    <table class="small-column" width="500" align="center" role="presentation">
                         <tr>
                             <td
                                 style="border-top: 1px solid #aaaaaa; border-bottom: 1px solid #aaaaaa; padding-bottom: 40px">
